@@ -7,7 +7,7 @@
                 "name": "Two Sum",
                 "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
                 "starting_point": "def two_sum(nums, target):",
-                "tests": "assert(1==1)"
+                "tests": "assert two_sum([2, 7, 11, 15], 9) == [0, 1], \"Test 1 Failed\"; assert two_sum([3, 2, 4], 6) == [1, 2], \"Test 2 Failed\"; assert two_sum([3, 3], 6) == [0, 1], \"Test 3 Failed\"; assert two_sum([1, 5, 3, 6], 8) == [1, 3], \"Test 4 Failed\"; assert two_sum([0, 4, 3, 0], 0) == [0, 3], \"Test 5 Failed\"; assert two_sum([-1, -2, -3, -4, -5], -8) == [2, 4], \"Test 6 Failed\"; assert two_sum([1, 2, 3, 4, 5], 9) == [3, 4], \"Test 7 Failed\"; assert two_sum([0, 1, 2, 3, 4, 5], 5) == [0, 5], \"Test 8 Failed\"; assert two_sum([1, 7, 11, 15], 18) == [1, 2], \"Test 9 Failed\"; assert two_sum([3, 5, -4, 8, 11, 1, -1, 6], 10) == [1, 6], \"Test 10 Failed\""
             },
             {
                 "id": 2,
