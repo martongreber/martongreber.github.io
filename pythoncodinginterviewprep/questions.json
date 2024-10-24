@@ -7,14 +7,27 @@
                 "name": "Two Sum",
                 "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
                 "starting_point": "def two_sum(nums, target):",
-                "tests": "assert(1==1)"
+                "tests": [
+                    "assert sorted(two_sum([2, 7, 11, 15], 9)) == [0, 1], \"Test 1 Failed\"",
+                    "assert sorted(two_sum([3, 2, 4], 6)) == [1, 2], \"Test 2 Failed\"",
+                    "assert sorted(two_sum([3, 3], 6)) == [0, 1], \"Test 3 Failed\"",
+                    "assert sorted(two_sum([1, 5, 3, 6], 8)) == [1, 2], \"Test 4 Failed\"",
+                    "assert sorted(two_sum([0, 4, 3, 0], 0)) == [0, 3], \"Test 5 Failed\"",
+                    "assert sorted(two_sum([-1, -2, -3, -4, -5], -8)) == [2, 4], \"Test 6 Failed\"",
+                    "assert sorted(two_sum([1, 2, 3, 4, 5], 9)) == [3, 4], \"Test 7 Failed\"",
+                    "assert sorted(two_sum([0, 1, 2, 3, 4, 5], 5)) in [[0, 5],[1, 4], [2, 3], \"Test 8 Failed\"",
+                    "assert sorted(two_sum([1, 7, 11, 15], 18)) == [1, 2], \"Test 9 Failed\"",
+                    "assert sorted(two_sum([3, 5, -4, 8, 11, 1, -1, 6], 10)) == [4, 6], \"Test 10 Failed\""
+                  ]
             },
             {
                 "id": 2,
                 "name": "Longest Substring Without Repeating Characters",
                 "description": "Given a string s, find the length of the longest substring without repeating characters.",
                 "starting_point": "def length_of_longest_substring(s):",
-                "tests": "assert(1==1)"
+                "tests": [
+                    "assert(1==1)"
+                ]
             }
         ]
     },
@@ -26,21 +39,27 @@
                 "name": "Build a Hash Map",
                 "description": "Design and implement a hash map from scratch. The hash map should support put, get, and remove operations. Assume that the keys are integers and the values are strings.",
                 "starting_point": "class MyHashMap:\n    def __init__(self):",
-                "tests": "assert(1==1)"
+                "tests": [
+                    "assert(1==1)"
+                ]
             },
             {
                 "id": 2,
                 "name": "Build a Linked List",
                 "description": "Implement a singly linked list with operations to insert, delete, and traverse. Each node in the linked list contains an integer value and a reference to the next node.",
                 "starting_point": "class ListNode:\n    def __init__(self, val=0, next=None):",
-                "tests": "assert(1==1)"
+                "tests": [
+                    "assert(1==1)"
+                ]
             },
             {
                 "id": 3,
                 "name": "Build a Stack",
                 "description": "Design and implement a stack with push, pop, and peek operations using an array.",
                 "starting_point": "class MyStack:\n    def __init__(self):",
-                "tests": "assert(1==1)"
+                "tests": [
+                    "assert(1==1)"
+                ]
             }
         ]
     }
